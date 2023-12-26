@@ -1,14 +1,9 @@
-/**
-* Template Name: Medicio - v4.7.0
-* Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
   /**
-   * Easy selector helper function
+   * selector helper function
    */
   const select = (el, all = false) => {
     el = el.trim()
@@ -20,7 +15,7 @@
   }
 
   /**
-   * Easy event listener function
+   * event listener function
    */
   const on = (type, el, listener, all = false) => {
     let selectEl = select(el, all)
@@ -34,7 +29,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * on scroll event listener 
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
